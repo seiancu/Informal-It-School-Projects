@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <tiltle>Employee Registration</tiltle>
+  </head>
+
+  <body>
+    <form>
+      <br />
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="title">Title</label>
+        <select name="title">
+          <option value="1">Mr.</option>
+          <option value="2">Mrs.</option>
+          <option value="3">Miss</option>
+        </select>
+        <br />
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" />
+        <br />
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" />
+        <br />
+        <label for="genderSelection">Gender</label>
+        <input name="gender" type="radio" id="gm" value="m" />
+        <label for="gm">Male</label>
+        <input name="gender" type="radio" id="gf" value="f" />
+        <label for="gf">Female</label>
+        <input name="gender" type="radio" id="go" value="o" />
+        <label for="gf">Other</label>
+        <br />
+        <label for="birthDate">Date of birth</label>
+        <input type="date" id="birthDate" />
+        <br />
+        <label for="residenceCountry">Residence Country</label>
+        <select name="title">
+          <option value="1">Romania</option>
+          <option value="2">Unitated States</option>
+          <option value="3">United Kingdom</option>
+        </select>
+        <br />
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" id="phoneNumber" />
+        <br />
+        <label for="email">email</label>
+        <input type="email" id="email" />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Job Details</legend>
+        <label for="jobTitle">Job Title</label>
+        <input type="text" id="jobTitle" />
+        <br />
+        <label for="startDate">Date of Start</label>
+        <input type="date" id="startDate" />
+        <br />
+        <label for="salary">Salary</label>
+        <input type="number" id="salary" />
+        <br />
+        <br />
+        <label for="user">User Name</label>
+        <input type="text" id="user" />
+        <br />
+        <label for="pass">Password</label>
+        <input type="password" id="pass" />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Food Alergies</legend>
+        <textarea id="alergies" cols="30" rows="10"></textarea>
+      </fieldset>
+      <p>
+        <input type="submit" name="submit" value="Confirm" />
+        <input type="reset" name="clear" value="Clear" />
+      </p>
+    </form>
+  </body>
+</html>

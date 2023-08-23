@@ -1,0 +1,66 @@
+header {
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.contact {
+  padding-left: 200px;
+}
+
+.feel {
+  padding-left: 10px;
+  color: rgb(153, 153, 153);
+}
+
+.main {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(238, 238, 238);
+}
+
+.left input {
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.button input {
+  background-color: rgb(66, 139, 202);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+  margin-top: 5px;
+}
+
+footer {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+}
+
+.socialMedia {
+  display: flex;
+}
+
+li {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(66, 139, 202);
+}

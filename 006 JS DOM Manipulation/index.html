@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="confirmation-banner">
+      <span>&#x2705 Thank you for contacting us, </span><span class="name"></span><span>!</span>
+      <div class = "exit">❎</div>
+    </div>
+    <div class="main-container">
+      <div class="left-container">
+        <form id="form">
+          <input
+            type="text"
+            class="firstName"
+            name="firstName"
+            placeholder="First Name"
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            class="lastName"
+            name="lastName"
+            placeholder="Last Name"
+          />
+          <br />
+          <br />
+          <label for="gender">Gender</label>
+          <br />
+          <input type="radio" name="gender" id="gm" value="male" />
+          <label>M</label>
+          <br />
+          <input type="radio" name="gender" id="gf" value="female"/>
+          <label>F</label>
+          <br />
+          <br />
+          <textarea rows="10" name="message" class="message" placeholder="Your message here..."></textarea>
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div class="right-container">
+        <img src="./pexels-lukas-317355.jpg" alt="message picture" />
+      </div>
+    </div>
+
+    <script src="./script.js" async defer></script>
+  </body>
+</html>

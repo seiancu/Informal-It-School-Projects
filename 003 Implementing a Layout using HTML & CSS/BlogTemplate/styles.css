@@ -1,0 +1,360 @@
+/* General styles */
+body {
+  display: grid;
+  justify-items: center;
+}
+
+/* Main Container */
+.main-container {
+  width: 957px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid black;
+}
+
+/* Nav section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+nav ul li {
+  background-color: rgba(34, 101, 169, 255);
+  width: 183px;
+  height: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Header section */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  font-family: Lora;
+}
+
+.header-h1-container {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid black;
+  font-size: 17px;
+  font-weight: 400;
+  padding-right: 15px;
+  height: 60px;
+}
+
+.left-section h2 {
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-section p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Article section */
+article {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* Section 1 from article */
+.section-1 {
+  background-color: rgb(189, 217, 254);
+  height: 375px;
+  position: relative;
+}
+
+.section-1 .container-1 {
+  background-color: rgba(34, 101, 169, 255);
+  width: 300px;
+  position: absolute;
+  margin: 0;
+  top: 30px;
+  left: 30px;
+  padding: 13px;
+  color: white;
+}
+
+.section-1 div p {
+  margin: 0;
+}
+
+.p1 {
+  font-size: 22px;
+}
+
+.section-1 div hr {
+  border: 1px dashed rgb(255, 255, 255);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.container-2 {
+  background-color: rgba(34, 101, 169, 255);
+  position: absolute;
+  bottom: -38px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 15px;
+}
+
+.container-2 h3,
+span {
+  font-size: 65px;
+  margin: 0;
+  color: white;
+}
+
+/* Section 2 from article */
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 375px;
+  position: relative;
+  padding-bottom: 30px;
+  border-bottom: 3px dashed gray;
+}
+
+.section-2 .container-1 {
+  background-color: rgb(234, 234, 234);
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  padding-top: 22px;
+}
+
+.section-2 .container-1 .p1 {
+  margin: 0;
+  border-bottom: 2px dashed rgb(159, 159, 159);
+  padding-bottom: 10px;
+}
+
+.section-2 .container-1 .img-container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-2 .container-1 .img {
+  height: 88px;
+  width: 238px;
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+  margin: 5px;
+}
+
+.section-2 .container-1 .p2 {
+  margin: 0;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-left: 27px;
+}
+
+.section-2 .container-1 .p3-container {
+  display: flex;
+  justify-content: end;
+  width: 83%;
+  margin-bottom: 18px;
+}
+
+.section-2 .container-1 .p3 {
+  margin: 0;
+  cursor: pointer;
+}
+
+.section-2 .container-1 .p3 a {
+  color: rgb(8, 56, 105);
+  text-decoration: none;
+}
+
+.section-2 .container-1 .p3:hover {
+  text-decoration: underline;
+}
+
+/* Section 3 from article */
+.section-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+}
+
+/* Section 3 left side */
+.left-side {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px dashed gray;
+}
+
+.section-3 .left-side .img-container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 168px;
+  width: 208px;
+}
+
+.section-3 .left-side .img {
+  height: 160px;
+  width: 200px;
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+.text-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.text-container .p1 {
+  margin-top: 0;
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+  border-bottom: 1px dashed black;
+}
+
+.text-container .p2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.text-container div .p3 {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 0;
+}
+
+.text-container .p3 a {
+  text-decoration: none;
+  color: rgb(8, 56, 105);
+  cursor: pointer;
+}
+
+.text-container .p3:hover {
+  text-decoration: underline;
+}
+
+/* Section 3 right side */
+.right-side {
+  background-color: lightgray;
+  width: 285px;
+  height: 192px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.right-side .p1 {
+  color: gray;
+  border-bottom: 2px dashed gray;
+}
+
+.right-side ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.right-side ul li {
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.right-side ul li a {
+  color: rgb(8, 56, 105);
+  text-decoration: none;
+}
+
+.right-side ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section 4 from article */
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+}
+
+.section-4 .img-container {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.section-4 .img-container .img {
+  height: 100px;
+  width: 174px;
+  background-color: rgb(56, 56, 56);
+  margin: 4px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+/* Footer section */
+footer {
+  height: 50px;
+  background-color: rgba(34, 101, 169, 255);
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
+}

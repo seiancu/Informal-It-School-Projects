@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Language Selection</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1>Language Selection using Session Storage</h1>
+    <form>
+      <label>
+        <input
+          type="radio"
+          name="language"
+          value="en-US"
+          onchange="handleRadioChange(event)"
+        />English (en-US)
+      </label>
+      <br />
+      <label>
+        <input
+          type="radio"
+          name="language"
+          value="ro-RO"
+          onchange="handleRadioChange(event)"
+        />Romanian (ro-RO)
+      </label>
+    </form>
+    <script src="./script_storage.js" async defer></script>
+  </body>
+</html>
